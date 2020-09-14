@@ -10,6 +10,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -51,12 +53,12 @@
             <div class="col-lg-6 col-md-12">
             
                 <h1>Sample Text</h1>
-                <button type="button">Download</button>
-                <button type="button">Download</button>
+                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+                <button type="button" class="btn btn-outline-light btn-lg download-button"> <i class="fab fa-google-play"></i>Download</button>
               </div>
              
               <div class="col-lg-6 col-md-12">
-                <img src="img/bird.png" alt="Img">
+                <img class="title-img" src="img/bird.png" alt="Img">
               </div>
 
 
@@ -68,16 +70,30 @@
       <!-- Features -->
     
       <section id="features">
-    
-        <h3>Easy to use.</h3>
-        <p></p>
-    
-        <h3>ABC </h3>
+
+        <div class="row">
+        <div class="feature-box col-lg-4">
+
+            <h3>Easy to use.</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        
+        </div>
+
+        
+        <div class = "feature-box col-lg-4">
+
+            <h3>ABC </h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        
+        </div>
+        
+        <div class = "feature-box col-lg-4">
+
+            <h3>PQR</h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
     
-        <h3>PQR</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-    
+        </div>
+    </div>  
       </section>
     
     
@@ -140,8 +156,8 @@
       <section id="cta">
     
         <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+        <button type="button"  >Download</button>
+        <button type="button" >Download</button>
     
       </section>
     
